@@ -1,0 +1,19 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    discovery:
+      enabled: true
+#    gateway:
+#      mvc:
+#        routes:
+#          - id: r1
+#            uri: http://localhost:9091
+#            predicates:
+#              - Path= /costumers/**
+#          - id: r2
+#            uri: http://localhost:9092
+#            predicates:
+#              - Path= /products/**
